@@ -16,5 +16,3 @@ RUN \
     rm -rf /tmp/* /var/tmp/* /var/cache/apk/* /var/cache/distfiles/*
 
 WORKDIR /workdir
-
-ENTRYPOINT ["mkdocs", "build"]
