@@ -17,5 +17,4 @@ RUN \
 
 WORKDIR /workdir
 
-ENTRYPOINT ["mkdocs"]
-CMD ["build"
+ENTRYPOINT ["mkdocs", "build"]
