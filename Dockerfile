@@ -41,6 +41,7 @@ RUN \
       mkdocs-psinder \
       mkdocs-rtd-dropdown \
       mkdocs-safe-text-plugin \
+      mkdocs-snippet-plugin \
       mkdocs-tamerdocs \
       mkdocs-unidata \
       mkdocs-windmill \
