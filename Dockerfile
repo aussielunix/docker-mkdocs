@@ -16,15 +16,36 @@ RUN \
       py-setuptools; \
       easy_install-2.7 pip; \
       pip install \
-      mkdocs \
       pygments \
+      mkdocs \
       mkdocs-alabaster \
+      mkdocs-basic-theme \
+      mkdocs-biojulia \
+      mkdocs-boost \
       mkdocs-bootstrap \
+      mkdocs-bootstrap4 \
+      mkdocs-bootstrap386 \
+      mkdocs-bootswatch \
       mkdocs-cinder \
+      mkdocs-cluster \
+      mkdocs-inspired \
+      mkdocs-jinks \
+      mkdocs-juice \
+      mkdocs-jwplayer \
       mkdocs-material \
+      mkdocs-material-components \
+      mkdocs-moonstone \
       mkdocs-nature \
+      mkdocs-pitch-dark \
+      mkdocs-ponylang \
+      mkdocs-psinder \
       mkdocs-rtd-dropdown \
-      mkdocs-safe-text-plugin; \
+      mkdocs-safe-text-plugin \
+      mkdocs-tamerdocs \
+      mkdocs-unidata \
+      mkdocs-windmill \
+      mkdocs-windmill-dark \
+      mkdocs-windmillex ; \
       echo 'gem: --no-document' >> /etc/gemrc; \
       gem install html-proofer; \
       apk del build-base && \
